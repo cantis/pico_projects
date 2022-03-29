@@ -11,7 +11,10 @@ Evan
 **blinky.py** - Blink the on-board Pico led <br/>
 **hello.py** - Hello World running on the Pico <br/>
 **i2c_scan.py** - Useful tool to scan for i2c devices, you'll have to manually configure the port that is scanned<br/>
+You're going to want to use this one frequently.
 **mpu6050.py** \_ An attempt to implement the MPU6050 sensor via the Pico.<br/>
 **read_temp.py** - Read the on-board temperature sensor.<br/>
+
+NOTE! I've included any libraries I download in my repo but they aren't my work, but here for reference.
 
 </>

@@ -1,5 +1,6 @@
 """ Scan i2c bus 0 (16,17) for attached devices, return any id's found """
 # EYoung 21 Feb 22
+# Change the pins to match your setup! 
 
 from machine import I2C
 
@@ -12,4 +13,4 @@ devices = i2c.scan()
 # Print out what we found
 if devices:
     for d in devices:
-        print(hex(d))
+        print(hex(d)) 
